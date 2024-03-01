@@ -11,7 +11,7 @@ const sdkFiles: Record<SDKFile, string> = {
 };
 
 export const permanentUrlService = {
-  getAppUrl: () => `https://v${process.env.VERSION}.livecodes.io/`,
+  getAppUrl: () => `https://code.scheibitz.com/`,
   getSDKUrl: (file: SDKFile = 'esm') =>
     modulesService.getUrl(`livecodes@${process.env.SDK_VERSION}/${sdkFiles[file]}`),
 };
