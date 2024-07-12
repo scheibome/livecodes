@@ -18,7 +18,7 @@ const attributesToRetrieve = ['name', 'description', 'homepage', 'repository.url
 const apiEndpoint = 'https://data.jsdelivr.com/v1';
 
 const jsDelivrHeaders = {
-  'User-Agent': 'https://livecodes.io',
+  'User-Agent': 'https://code.scheibitz.com',
 };
 
 interface APIPkgFiles {

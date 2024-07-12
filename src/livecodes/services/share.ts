@@ -28,7 +28,7 @@ const dpasteService = {
         mode: 'cors',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
-          'User-Agent': 'LiveCodes / https://livecodes.io/',
+          'User-Agent': 'CodeScheibitz / https://code.scheibitz.com/',
         },
         body: `content=${encodeURIComponent(JSON.stringify(config))}&title=${encodeURIComponent(
           config.title || '',

@@ -44,7 +44,7 @@ export async function createPlayground(
   }
 
   const {
-    appUrl = 'https://livecodes.io/',
+    appUrl = 'https://code.scheibitz.com/',
     params = {},
     config = {},
     import: importFrom,
@@ -396,7 +396,7 @@ export function getPlaygroundUrl(options: EmbedOptions = {}): string {
       }),
     ),
   ).toString();
-  return (appUrl || 'https://livecodes.io') + (allParams ? '?' + allParams : '');
+  return (appUrl || 'https://code.scheibitz.com') + (allParams ? '?' + allParams : '');
 }
 
 if (
